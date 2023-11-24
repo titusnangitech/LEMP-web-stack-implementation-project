@@ -19,3 +19,24 @@
 - **Ec2 instance launched successfully**
 
 ![ec2 launched succesfully](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/50e3eced-4a1e-4de3-aa48-5b3b091e3be2)
+
+# STEP 02 – Installed the Nginx webserver
+
+- **populated Mobaxterm with ec2 public IP address, username and key pair details to connect to the EC2 instance**
+
+
+
+
+- **connected successfully into the EC2 instance using Mobaxterm**
+
+
+- **Switch from ubuntu user to root user**
+
+
+- 
+
+```
+Since this is our first time using apt for this session, start off by updating your server’s package index. Following that, you can use apt install to get Nginx installed:
+apt update
+apt install nginx
+```
