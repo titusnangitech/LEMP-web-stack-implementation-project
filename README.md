@@ -24,13 +24,17 @@
 
 - **populated Mobaxterm with ec2 public IP address, username and key pair details to connect to the EC2 instance**
 
+![populating the mobaxterm with details](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/547bbb00-0465-40ce-a286-9792cd318fc8)
 
 
 
 - **connected successfully into the EC2 instance using Mobaxterm**
 
+![connected to the ec2 instance](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/f09d2a1a-68d9-47f5-9b24-efc6f5ef52b5)
 
 - **Switch from ubuntu user to root user**
+  
+![switching to root user](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/cb88f52e-dc1e-4b4d-90f4-49387d12c203)
 
 
 ```
@@ -43,7 +47,11 @@ apt install nginx
 ![install nginx](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/642531de-b1e9-4089-8bf1-a3806e81ee4e)
 
 
+- **Verify that Nginx is running**
 
+![verify that nginx is running](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/effc6966-8ea9-41bd-a3b5-7062f148d2aa)
+
+  
 - **checking if we can connecting to our server from localhost**
 
 ![checking if we can connecting to our server from localhost](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/059f5fb4-552f-4408-a3e7-bccff7379dac)
