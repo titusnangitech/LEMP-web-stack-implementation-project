@@ -9,10 +9,15 @@
 
 ![creating an ec2 instance with t2 nano](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/67ef9089-e6f1-47c8-aa34-a8b757c75876)
 
+- **Created a key pair**
 
 ![creating a key pair](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/2a786407-a7dc-4453-9aad-1b71c6e82796)
 
+- **Created a security group**
+
 ![created a security group](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/f75c3051-822c-45b6-9c1e-c27bc34dcddc)
+
+- **Used the existing security group**
 
 ![used the existing sg that we have created](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/09b6ee80-17ce-4606-8996-ff6b6a5efbfd)
 
@@ -33,12 +38,18 @@
 ![connected to the ec2 instance](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/f09d2a1a-68d9-47f5-9b24-efc6f5ef52b5)
 
 - **Switch from ubuntu user to root user**
+
+ ```
+sudo -i
+
+```
+  
   
 ![switching to root user](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/cb88f52e-dc1e-4b4d-90f4-49387d12c203)
 
+- **start off by updating my server’s package index. Following that, I can use apt install to get Nginx installed:**
 
 ```
-Since this is our first time using apt for this session, start off by updating your server’s package index. Following that, you can use apt install to get Nginx installed:
 apt update
 apt install nginx
 ```
@@ -62,3 +73,7 @@ apt install nginx
 
   
 ![connecting from the intenet](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/1997cf0a-89a1-49a8-8ded-ad0ba2f3f874)
+
+# STEP 03 — Installing MySQL
+
+
