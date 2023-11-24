@@ -33,10 +33,24 @@
 - **Switch from ubuntu user to root user**
 
 
-- 
-
 ```
 Since this is our first time using apt for this session, start off by updating your server’s package index. Following that, you can use apt install to get Nginx installed:
 apt update
 apt install nginx
 ```
+![apt update](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/cd192bec-dd02-46f5-a709-5a5e7947239f)
+
+![install nginx](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/642531de-b1e9-4089-8bf1-a3806e81ee4e)
+
+
+
+- **checking if we can connecting to our server from localhost**
+
+![checking if we can connecting to our server from localhost](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/059f5fb4-552f-4408-a3e7-bccff7379dac)
+
+![localhost connection successful](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/39a163ac-e048-4fd6-bdec-8df22487daff)
+
+- **Now it is time for us to test how our Nginx server can respond to requests from the Internet. Open a web browser of your choice and try to access following url. If you see following page, then your web server is now correctly installed and accessible through your firewall.**
+
+  
+![connecting from the intenet](https://github.com/titusnangitech/LEMP-web-stack-implementation-project/assets/128609800/1997cf0a-89a1-49a8-8ded-ad0ba2f3f874)
