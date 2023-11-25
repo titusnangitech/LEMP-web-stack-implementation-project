@@ -76,4 +76,15 @@ apt install nginx
 
 # STEP 03 — Installing MySQL
 
+**Now that i have a web server up and running, I installed a Database Management System (DBMS) to be able to store and manage data for my site in a relational database. MySQL is a popular relational database management system used within PHP environments, I used it in our project.**
+
+```
+apt install mysql-server
+```
+
+**When the installation is finished, log in to the MySQL console by typing:**
+```
+mysql
+```
+
 
