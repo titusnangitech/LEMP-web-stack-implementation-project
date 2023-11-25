@@ -88,3 +88,7 @@ mysql
 ```
 **To finish**
 
+# STEP 04 - Installing PHP
+
+**To finish**
+
