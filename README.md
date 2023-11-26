@@ -86,7 +86,7 @@ apt install mysql-server
 ```
 mysql
 ```
-
+**To finish**
 
 # STEP 04 - Installing PHP
 
